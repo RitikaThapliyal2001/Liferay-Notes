@@ -1,0 +1,2 @@
+what is themeDisplay?
+ThemeDisplay is a utility object that provide all the information about the current portal context including logged in user ,site,page,company and theme ditails.
