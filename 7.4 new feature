@@ -12,6 +12,9 @@
 #)It’s similar to creating a table in a database.
 #)Used for data modeling, validation, and workflows.
 
+-)Client Extension
+#)A Client Extension is used to extend or override the functionality of Liferay without affecting its core code.
+#)It promotes loose coupling by keeping customizations separate from the core platform
 
 
 
