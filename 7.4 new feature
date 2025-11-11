@@ -12,9 +12,17 @@
 #)It’s similar to creating a table in a database.
 #)Used for data modeling, validation, and workflows.
 
+What is state manager in object's?
+#)A State Manager in Liferay Objects is similar to a workflow .
+#)it tracks and manages the current state of an object entry (like Draft, Approved, Rejected, etc.) throughout its lifecycle.
+
+What is relationship?
+#A relationship in Liferay Objects is used to link two objects together, just like a foreign key relationship in a database
+
 -)Client Extension
 #)A Client Extension is used to extend or override the functionality of Liferay without affecting its core code.
 #)It promotes loose coupling by keeping customizations separate from the core platform
+
 
 
 
