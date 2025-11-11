@@ -1,0 +1,17 @@
+-)what are the liferay new feature of 7.4?
+#objects 
+#Client Extension
+#Blue Print 
+#Style Book
+#Headless APIs
+
+
+-)objects 
+#)A Liferay Object is a custom entity created from the UI of an liferay.
+#)It has its own fields, relationships, forms, and permissions.
+#)It’s similar to creating a table in a database.
+#)Used for data modeling, validation, and workflows.
+
+
+
+
