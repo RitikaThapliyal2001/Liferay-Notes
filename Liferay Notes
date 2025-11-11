@@ -1,6 +1,6 @@
 -)what is themeDisplay?
 ThemeDisplay is a utility object that provide all the information about the current portal context 
-including logged in user ,site,page,company and theme details.
+including logged in user,site,page,company and theme details.
 
 site(Group)
 Page(Layout)
@@ -11,5 +11,7 @@ themeDisplay.isSignedIn= return false if user is not logged in
 -)what is Client Extension?
 A client Extestion is used for extension the Liferay's Functionality without modifying it's core code
 it's promote loose coupling by keeping customization independent from the main system .
+
+-)
 
 
