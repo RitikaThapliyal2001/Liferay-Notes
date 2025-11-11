@@ -1,0 +1,71 @@
+-)portlet?
+portlet is a reusable web componenet that run inside a liferay portal page and follow the Portlet APi's 
+JSP 286 and JSP 362 .it is simillar to servlet but provides more feature specific to a server page .
+
+-)potlet lifecycle?
+Portlet lifecycle define's how a portlet work's and how a portlet handle specific type of request .
+
+-)there is six phase of portlet lifecycle 
+1)init
+2)action 
+3)render
+4)resource
+5)event
+6)destroy
+
+1)init
+The init phase of a portlet called when portlet called initialize's or in other word when portle is deployed
+
+2)Action 
+The action phase in a portlet is responsible for handling user action typically trigger by form submission 
+or button click's .it's execute before the render phase and allow's developer's to process user input
+,update backend system and trigger events .
+PP Lifecycle is 2
+
+3)Reder Phase 
+The Render Phase in a portlet is Responsible For Generating The HTML output that will be display on the page.
+PP cycle -0
+
+4)Resource Phase 
+The Resource Serving Phase is Responsible for Serving Various Resources such as HTML,JSON,Image or other static/dynamic data 
+providing directly to the client unlike the action and Render Phase ,it is highly effiicent for handling the AJAX Request 
+This Phase is commonly used for dynamic content updates without full Page reload 
+PP cycle -1
+
+5)Event Phase 
+The event Phase is respomsible for communicate potlet's with each other.
+
+6)Destroy Phase 
+when a portlet is undeployed then Destrop phase is invoked.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
