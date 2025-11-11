@@ -1,0 +1,8 @@
+-)Service Builder
+Service builder is a code generation Tool in liferay That reads the Service.xml file and auto
+Generates the BoilerPlate code for Model ,Local Service ,Remote Service ,Persistance and more .
+
+-)service.xml
+# service.xml is a confriguation file in service builder
+#it is a powerfull code generation tool
+# through XML we define Entities and their Attributes and how they Relate to Each other .
