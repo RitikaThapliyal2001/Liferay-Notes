@@ -20,15 +20,17 @@ What is relationship?
 #A relationship in Liferay Objects is used to link two objects together, just like a foreign key relationship in a database
 
 -)Client Extension
-#)A Client Extension is used to extend or override the functionality of Liferay without affecting its core code.
+#)A Client Extension is used to extend or cutomize liferay's functionality without affecting it's core code.
 #)It promotes loose coupling by keeping customizations separate from the core platform
 
 -)Type's of client extension :
 Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion ,Batch ClientExtension
-#Frontend Client Extensions – Used to change the look of Liferay, like adding your own design, buttons, or styles.
-#Microservice Client Extensions – Used to connect Liferay with other apps or APIs to do extra work automatically.
-#Configuration Client Extensions – Used to change settings in Liferay easily based on your needs.
-#Batch Client Extensions – Used to handle big tasks, like uploading or processing lots of data at once.
+
+
+Batch – Used for running background jobs or scheduled tasks.
+Frontend – Used to customize or create user interfaces (React apps, custom elements, themes, CSS, etc.).
+Microservice – Used for backend logic or APIs that run as independent services.
+Configuration – Used to define or manage configuration settings shared across other extensions.
 
 
 
