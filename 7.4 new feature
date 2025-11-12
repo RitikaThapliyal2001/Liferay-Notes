@@ -26,11 +26,10 @@ What is relationship?
 -)Type's of client extension :
 Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion ,Batch ClientExtension
 
-
-Batch – Used for running background jobs or scheduled tasks.
-Frontend – Used to customize or create user interfaces (React apps, custom elements, themes, CSS, etc.).
-Microservice – Used for backend logic or APIs that run as independent services.
-Configuration – Used to define or manage configuration settings shared across other extensions.
+1)Frontend – Used to customize or create user interfaces (React apps, custom elements, themes, CSS, etc.).
+2)Batch – Used for running background jobs or scheduled tasks.
+3)Microservice – Used for backend logic or API's that run as independent services.
+4)Configuration – Used to define or manage configuration settings shared across other extensions.
 
 
 
