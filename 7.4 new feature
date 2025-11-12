@@ -23,6 +23,16 @@ What is relationship?
 #)A Client Extension is used to extend or override the functionality of Liferay without affecting its core code.
 #)It promotes loose coupling by keeping customizations separate from the core platform
 
+-)Type's of client extension :
+Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion ,Batch ClientExtension
+#Frontend Client Extensions – Used to change the look of Liferay, like adding your own design, buttons, or styles.
+#Microservice Client Extensions – Used to connect Liferay with other apps or APIs to do extra work automatically.
+#Configuration Client Extensions – Used to change settings in Liferay easily based on your needs.
+#Batch Client Extensions – Used to handle big tasks, like uploading or processing lots of data at once.
+
+
+
+
 
 
 
