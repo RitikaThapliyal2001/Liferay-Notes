@@ -7,7 +7,8 @@
 
 
 -)objects 
-#)A Liferay Object is a custom entity created from the UI of an liferay.
+#)Liferay Objects is a no-low-code feature in Liferay that allows you to create custom entities
+(database tables) directly from the Liferay UI.
 #)It has its own fields, relationships, forms, and permissions.
 #)It’s similar to creating a table in a database.
 #)Used for data modeling, validation, and workflows.
