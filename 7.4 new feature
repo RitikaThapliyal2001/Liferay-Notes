@@ -22,6 +22,7 @@ What is relationship?
 
 what is PickList ?
 pickList is a predefine list of selectable values.
+store as name/key pair
 
 -)Client Extension
 #)A Client Extension is used to extend or cutomize liferay's functionality without affecting it's core code.
