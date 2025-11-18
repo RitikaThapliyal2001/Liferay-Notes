@@ -20,6 +20,9 @@ What is state manager in object's?
 What is relationship?
 #A relationship in Liferay Objects is used to link two objects together, just like a foreign key relationship in a database
 
+what is PickList ?
+pickList is a predefine list of selectable values.
+
 -)Client Extension
 #)A Client Extension is used to extend or cutomize liferay's functionality without affecting it's core code.
 #)It promotes loose coupling by keeping customizations separate from the core platform
