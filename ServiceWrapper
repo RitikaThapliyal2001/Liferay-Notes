@@ -1,0 +1,4 @@
+What is Service Wrapper?
+-)Service Wrapper is class that wraps or override the behaviour of existing liferay service without mofifying it's original
+service 
+-)it allow to add custon logic behaviour safely.
