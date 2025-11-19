@@ -21,8 +21,9 @@ What is relationship?
 #A relationship in Liferay Objects is used to link two objects together, just like a foreign key relationship in a database
 
 what is PickList ?
-pickList is a predefine list of selectable values.
-store as name/key pair
+-)pickList is a predefine list of selectable values.
+-)store as name/key pair
+-)Picklist data can be fetched using Liferay's Headless Admin List Type API.
 
 -)Client Extension
 #)A Client Extension is used to extend or cutomize liferay's functionality without affecting it's core code.
