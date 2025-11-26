@@ -13,3 +13,7 @@ themeDisplay.isSignedIn= return false if user is not logged in
                          return true if user id logged in 
 -)Portlet Reference 
 Portlet Reference means reuse existing Portlet instead of creating a new one 
+
+-)PropsUtil
+PropsUtil is a utility class in liferay used to read propertie's from the liferay's confrigstion's files like 
+portal.properties, system.properties and custom .properties files.
