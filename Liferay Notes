@@ -11,3 +11,5 @@ Page(Layout)
 portalURL-Domain of the Portal.
 themeDisplay.isSignedIn= return false if user is not logged in 
                          return true if user id logged in 
+-)Portlet Reference 
+Portlet Reference means reuse existing Portlet instead of creating a new one 
