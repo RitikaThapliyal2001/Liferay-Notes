@@ -1,0 +1,3 @@
+What is Rest builder?
+Rest builder is a code generation tool in liferay used to designed streamline the creation of Rest APi's
+It facilitates the development of the custom API's that expose liferay service or integrate with external system .
