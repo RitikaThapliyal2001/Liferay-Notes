@@ -9,3 +9,10 @@ and second once is rest-openapi.yaml
 -)rest-openapi.yaml-defines the API design — it contains the data
 structures (schemas) and all the endpoints (paths) that the API will expose
 
+there is four main package was created 
+-api
+-client
+-impl
+-test
+ we write the logic under the impl package under the sub package called internal.resource 
+in that there is java classes created 
