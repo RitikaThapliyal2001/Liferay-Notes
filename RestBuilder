@@ -1,3 +1,11 @@
 What is Rest builder?
-Rest builder is a code generation tool in liferay used to designed streamline the creation of Rest APi's
-It facilitates the development of the custom API's that expose liferay service or integrate with external system .
+Rest builder is a powerfull code generation tool in liferay 
+it is used to create an rest APi's 
+which is remotly access 
+when we create an rest builder in liferay there is 2 maim files are generate 
+which is called as rest-config.yaml 
+and second once is rest-openapi.yaml
+-)rest-config.yaml -This file contains general configuration of the API (package names, base URL path, version, etc.).
+-)rest-openapi.yaml-defines the API design — it contains the data
+structures (schemas) and all the endpoints (paths) that the API will expose
+
