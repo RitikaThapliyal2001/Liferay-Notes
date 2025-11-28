@@ -39,7 +39,7 @@ Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion 
 
 how to create Client extensiom folder in liferay ?
 Firstly we createa client extension foler using the blade command:-
-blade gw create client-extension my-client-extension 
+blade create -t client-extension my-client-extension
 after this command the client extension folder is created and inside this folder client-extension.yaml file is
 generate automatically .
 after then we give type of client-extension insdie this file based on requirement 
