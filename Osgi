@@ -1,0 +1,4 @@
+what is osgi?
+osgi stand for open service gateway initiative.
+it follow the mvc architecture where each module work independently 
+if one module stopped or updated then it can not effect the other one 
