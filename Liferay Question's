@@ -1,0 +1,59 @@
+Liferay Architecture
+OSGI 
+Liferay 7.4 new feature.
+-Objects
+-Client extensions
+-Blue print
+diffrence between objects and service builder
+service builder
+when to use objects and service builder
+When to use web content and fragments
+
+Page template, master page template, display page template.
+what is diffrence between adt and template
+datatypes in FTL
+State manager in objects
+Workflow and its working
+Asset library
+User segmentations
+Local service and remote service in service builder
+How we declare custom entity as asset in liferay
+How we implement workflow on custom entity
+Theme Display
+Rest builder in liferay
+Liferay portlet lifecycle
+Service wrapper
+Custom field
+Service access policy
+
+DSL query
+Boolean query
+Liferay hooks
+Asset Framework
+How to write custome sql in service builder
+Service administrator
+Inter portlet communication
+Service ranking
+Information template and widget template
+
+use of bnd.bnd and gradle.gradle files
+include, compile and compileonly
+gogo shell commands 
+headless api 
+service locator
+
+liferay objects relations ships 
+Liferay objects database table mapping.
+
+Permission checker in liferay
+Instance setting vs System setting
+Collection in liferay.
+
+
+
+
+
+
+
+
+
