@@ -1,28 +1,28 @@
 Liferay Architecture
-OSGI 
+OSGI -done
 Liferay 7.4 new feature.
--Objects
--Client extensions
+-Objects-done
+-Client extensions-done
 -Blue print
 diffrence between objects and service builder
-service builder
+service builder--done
 when to use objects and service builder
 When to use web content and fragments
 
 Page template, master page template, display page template.
 what is diffrence between adt and template
 datatypes in FTL
-State manager in objects
+State manager in objects--done
 Workflow and its working
 Asset library
 User segmentations
 Local service and remote service in service builder
 How we declare custom entity as asset in liferay
 How we implement workflow on custom entity
-Theme Display
-Rest builder in liferay
-Liferay portlet lifecycle
-Service wrapper
+Theme Display--done
+Rest builder in liferay--done
+Liferay portlet lifecycle--done
+Service wrapper-done
 Custom field
 Service access policy
 
