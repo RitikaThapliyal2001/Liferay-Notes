@@ -1,6 +1,6 @@
 -)System Setting
 Settings that apply to the entire Liferay installation, no matter how many instances exist.
-They affect all portals, all sites, and all users.
+They affect all instance, all sites, and all users.
 
 Example Use Cases:
 1)Configure email engine (SMTP settings for all instances)
