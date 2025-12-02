@@ -1,0 +1,6 @@
+what is bnd.bnd file ?
+The bnd.bnd file is a configuration file that tells Liferay how to build an OSGi module.
+It contains the bundle details and instructions needed to create the OSGi JAR.
+
+what is build.gradle?
+build.gradle controls how Liferay modules are built and what dependencies they use
