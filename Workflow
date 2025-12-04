@@ -1,0 +1,5 @@
+WorkFlow?
+Workflow means the sequence of states through which content passes from creation to publication. 
+Liferay uses the Kaleo Workflow Engine to manage these approval processes.
+When workflow is enabled, the content does not publish directly — instead, 
+it first goes into the Pending state by default until it is reviewed and approved
