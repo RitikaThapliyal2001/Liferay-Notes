@@ -1,5 +1,5 @@
-:-)You need to trigger an API call to an external system whenever a Liferay Object entry is created. What approach will you use?
-I will use an Object Action with a Groovy script or a REST trigger.
+Question:-)You need to trigger an API call to an external system whenever a Liferay Object entry is created. What approach will you use?
+Answer:-)I will use an Object Action with a Groovy script or a REST trigger.
 When the Object entry is created, the Object Action will automatically call the external API.
 If I need more complex logic, I will create a custom Java Object Action using a Model Listener.
 🟢 Explain Approaches (Interview Level)
