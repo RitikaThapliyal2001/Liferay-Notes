@@ -1,0 +1,17 @@
+:-)You need to trigger an API call to an external system whenever a Liferay Object entry is created. What approach will you use?
+I will use an Object Action with a Groovy script or a REST trigger.
+When the Object entry is created, the Object Action will automatically call the external API.
+If I need more complex logic, I will create a custom Java Object Action using a Model Listener.
+🟢 Explain Approaches (Interview Level)
+1️⃣ Object Action (No Code — Recommended)
+Liferay Objects support Object Actions that run when:
+An entry is added
+Updated
+Deleted
+You can configure an action:
+✔ Condition: On After Create
+✔ Type: Webhook
+✔ URL: external system API
+✔ Method: POST / PUT
+✔ Body: JSON payload from the Object fields
+This automatically calls the external API whenever an entry is created.
