@@ -1,3 +1,6 @@
+-)user-A User is an individual account, 
+-)and an Organization is a group of users arranged in a hierarchy for managing departments and permissions.
+
 -)what are the mandatory fields for creating and users?
 1)first name 
 2)last name 
