@@ -6,3 +6,7 @@ Generates the BoilerPlate code for Model ,Local Service ,Remote Service ,Persist
 # service.xml is a confriguation file in service builder
 #it is a powerfull code generation tool
 # through XML we define Entities and their Attributes and how they Relate to Each other .
+
+-)From where can you increase the database column size in Service Builder?
+from portlet-model-hints.xml file
+
