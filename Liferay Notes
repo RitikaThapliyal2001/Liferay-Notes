@@ -3,7 +3,7 @@ liferay is a java based open source corporate portal developed by liferay incorp
 called as liferay DXP .There is two type's of version first is community version and second is DXP version.
 
 -)what is themeDisplay?
-ThemeDisplay is a utility object that provide all the information about the current portal context 
+ThemeDisplay is a helper class that provide all the information about the current portal context 
 including logged in user,site,page,company and theme details.
 
 site(Group)
