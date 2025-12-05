@@ -1,2 +1,4 @@
 Question:-)You need to trigger an API call to an external system whenever a Liferay Object entry is created. What approach will you use?
 Answer:-)I will use an Object Action (Webhook) to call the external API when an Object entry is created...
+
+Question:-)
