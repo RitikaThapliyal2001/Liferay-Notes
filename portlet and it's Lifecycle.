@@ -16,10 +16,8 @@ Portlet lifecycle define's how a portlet work's and how a portlet handle specifi
 1)init
 The init phase of a portlet called when portlet is initialize's or in other word when portle is deployed
 
-2)Action 
-The action phase in a portlet is responsible for handling user action typically trigger by form submission 
-or button click's .it's execute before the render phase and allow's developer's to process user input
-,update backend system and trigger events .
+2)Action
+The Action Phase is used to process form submissions and update data, and it always triggers in a  page refresh.
 PP Lifecycle is 2
 
 3)Reder Phase 
@@ -27,9 +25,7 @@ The Render Phase in a portlet is Responsible For Generating The HTML output that
 PP cycle -0
 
 4)Resource Phase 
-The Resource Serving Phase is Responsible for Serving Various Resources such as HTML,JSON,Image or other static/dynamic data 
-providing directly to the client unlike the action and Render Phase ,it is highly effiicent for handling the AJAX Request 
-This Phase is commonly used for dynamic content updates without full Page reload 
+The Resource Command is used to handle AJAX requests and return JSON or files without page refresh.
 PP cycle -1
 
 5)Event Phase 
