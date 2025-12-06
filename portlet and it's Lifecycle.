@@ -17,7 +17,7 @@ Portlet lifecycle define's how a portlet work's and how a portlet handle specifi
 The init phase of a portlet called when portlet is initialize's or in other word when portle is deployed
 
 2)Action
-The Action Phase is used to process form submissions and update data, and it always triggers in a  page refresh.
+The Action Phase is used to process form submissions or button clicks that submit data, and it always triggers a page refresh.
 PP Lifecycle is 2
 
 3)Reder Phase 
