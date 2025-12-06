@@ -18,15 +18,15 @@ The init phase of a portlet called when portlet is initialize's or in other word
 
 2)Action
 The Action Phase is used to process form submissions or button clicks that submit data, and it always triggers a page refresh.
-PP Lifecycle is 2
+PP(portlet Phase) Lifecycle is 2
 
 3)Reder Phase 
 The Render Phase in a portlet is Responsible For Generating The HTML output that will be display on the page.
-PP cycle -0
+PP(portlet Phase) cycle -0
 
 4)Resource Phase 
 The Resource Command is used to handle AJAX requests and return JSON or files without page refresh.
-PP cycle -1
+PP(portlet Phase) cycle -1
 
 5)Event Phase 
 The event Phase is respomsible for communicate potlet's with each other.
