@@ -1,6 +1,6 @@
 -)portlet?
-portlet is a reusable web componenet that run inside a liferay portal page and follow the Portlet APi's 
-JSP 286 and JSP 362 .it is simillar to servlet but provides more feature specific to a server page .
+portlet is a reusable web componenet that run inside a liferay portal page and follow the Portlet APi's ...
+it is simillar to servlet but provides more feature specific to a server page .
 
 -)potlet lifecycle?
 Portlet lifecycle define's how a portlet work's and how a portlet handle specific type of request .
