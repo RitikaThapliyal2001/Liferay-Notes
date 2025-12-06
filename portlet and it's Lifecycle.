@@ -38,6 +38,10 @@ The event Phase is respomsible for communicate potlet's with each other.
 6)Destroy Phase 
 when a portlet is undeployed then Destrop phase is invoked.
 
+The main key difference between the action and resource phare are 
+:-)ActionCommand is used to process form submissions and update data, and it always triggers a page refresh.
+:-)ResourceCommand is used to handle AJAX requests and return JSON or files without page refresh.
+
 
 
 
