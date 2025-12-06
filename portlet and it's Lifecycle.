@@ -38,34 +38,6 @@ The main key difference between the action and resource phare are
 :-)ActionCommand is used to process form submissions and update data, and it always triggers a page refresh.
 :-)ResourceCommand is used to handle AJAX requests and return JSON or files without page refresh.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+what is Servlet?
+A Servlet is a Java class used to create web applications.
+It handles HTTP requests (GET, POST) and returns a full web page response.
