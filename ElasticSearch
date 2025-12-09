@@ -4,7 +4,7 @@ Elasticsearch in Liferay is the default search engine used to index and search a
 #)How can you apply Elasticsearch in a custom entity?
 1)Create a custom entity using Service Builder and define all required fields inside service.xml.
 2)Create an Indexer class for the custom entity that extends BaseIndexer<YourEntity>.
-3)Implement the constructor DealIndexer() and inside it:
+3)Implement DealIndexer() DealIndexer() and inside it:
  -)Set default selected fields for indexing.
  -)Enable permission-aware search with setPermissionAware(true).
  -)Enable filter support with setFilterSearch(true).
