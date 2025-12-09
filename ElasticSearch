@@ -1,0 +1,14 @@
+#)what is elasticSearch?
+Elasticsearch in Liferay is the default search engine used to index and search all portal content.
+
+#)How can you apply Elasticsearch in a custom entity?
+1)First, create a custom entity using Service Builder and define all required fields inside service.xml.
+2)Next, in the same Service Builder module, create a new package and inside it, create an Indexer class for that entity.
+3)In the Indexer class, choose which entity fields to index (as defined in service.xml) so Elasticsearch can search them efficiently.
+4)Enable permission-aware search in the constructor so Elasticsearch returns only records the user is allowed to view.
+5)Override important methods like:
+-)doGetDocument() → to add fields into the index
+-)doGetSummary() → to show summary in search results
+-)doReindex() → to support reindexing
+-)doDelete() → to remove data from the index when a record is deleted
+After deploying the module, Liferay automatically indexes the entity in Elasticsearch whenever a record is added, updated, or deleted.
