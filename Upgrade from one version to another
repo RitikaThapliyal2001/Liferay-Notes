@@ -1,0 +1,17 @@
+“When we upgrade Liferay from one version to another, we follow a structured migration process.
+
+First, we update the target product version in gradle.properties, for example:
+liferay.workspace.product=dxp-2025.q1.4-lts.
+This applies the required ‘unbreakable changes’ for that version.
+
+Then we update and resolve all module-level dependencies (OSGi, third-party libraries, and Liferay APIs) so everything aligns with the new DXP version.
+
+After the codebase is aligned, we prepare for the database upgrade.
+We enable:
+upgrade.database.auto.run=true
+so that Liferay runs all required Upgrade Processes automatically.
+
+When the server starts, Liferay executes the upgrade steps, verifies schema changes, updates module versions, and completes the database migration.
+
+Overall, the upgrade process is:
+Update product version → Apply unbreakable changes → Resolve dependencies → Run automatic database + module upgrades.”**
