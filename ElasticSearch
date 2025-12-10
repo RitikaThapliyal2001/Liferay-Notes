@@ -14,4 +14,4 @@ Elasticsearch in Liferay is the default search engine used to index and search a
 -)doGetSummary() → define how results appear in search summaries.
 -)doReindex() → support reindexing of records.
 -)doDelete() → remove documents from the index when a record is deleted.
-After deploying the module, Liferay automatically indexes the entity in Elasticsearch whenever a record is added, updated, or deleted.
+that is Your custom entity is ready to be index
