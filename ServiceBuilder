@@ -8,5 +8,7 @@ Generates the BoilerPlate code for Model ,Local Service ,Remote Service ,Persist
 # through XML we define Entities and their Attributes and how they Relate to Each other .
 
 -)From where can you increase the database column size in Service Builder?
-from portlet-model-hints.xml file
+in the service builder there is an two package service.api and service.service 
+inside the service.service there is src/main/resources package inside that there is META-INF forlder there is an
+portlet-model-hints.xml file from there we increse the size of and column
 
