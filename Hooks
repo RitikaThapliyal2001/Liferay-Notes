@@ -1,3 +1,14 @@
 Hooks?
-Hooks were used in older Liferay versions to customize or override core features like JSPs and services 
-without changing the core code. In Liferay 7+, Hooks are replaced by OSGi modules.
+Hooks in Liferay are used to customize or extend the portal’s core functionality without modifying the core source code
+it were used in older liferay version 
+in liferay 7+ hooks are replaced by osgi modules.
+
+Pre-hook
+A pre-hook is always invoked before the user login,
+and in OSGi we define it by using @Component(property = {"key=login.events.pre"}) inside the Java class
+
+Pre-hook
+A post-hook is always invoked after the user login,
+and in OSGi we define it by using @Component(property = {"key=login.events.post"}) inside the Java class
+
+
