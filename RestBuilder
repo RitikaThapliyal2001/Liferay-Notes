@@ -16,3 +16,6 @@ there is four main package was created
 -test
  we write the logic under the impl package under the sub package called internal.resource 
 in that there is java classes created 
+
+Rest Api's is a set of rules and structure for designing web API's 
+headless APi's is are those APi's that provides only data with no UI
