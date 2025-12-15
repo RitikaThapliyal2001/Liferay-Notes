@@ -40,7 +40,8 @@ Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion 
 and in other word
 It is used for data-migration.
 3)Microservice – Used for backend logic or API's that run as independent services.
-4)Configuration – Used to define or manage configuration settings shared across other extensions.
+4)Configuration – Configuration client-extension allows you to set or change Liferay instance configurations programmatically, 
+without touching core code.
 
 how to create Client extensiom folder in liferay ?
 manually i create the folder's
