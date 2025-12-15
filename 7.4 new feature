@@ -36,19 +36,16 @@ what is PickList ?
 Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion ,Batch ClientExtension
 
 1)Frontend – Used to customize or create user interfaces (React apps, custom elements, themes, CSS, etc.).
-2)Batch – Used for running background jobs or scheduled tasks.
+2)Batch – Used for running background jobs or scheduled tasks.on 
+in other word it is used for data-migration.
 3)Microservice – Used for backend logic or API's that run as independent services.
 4)Configuration – Used to define or manage configuration settings shared across other extensions.
 
 how to create Client extensiom folder in liferay ?
-Firstly we createa client extension foler using the blade command:-
-blade create -t client-extension my-client-extension
-after this command the client extension folder is created and inside this folder client-extension.yaml file is
-generate automatically .
-after then we give type of client-extension insdie this file based on requirement 
-afte then we build or deploy that folder 
-and the changes are reflected in liferay UI...
-this is the process of creating client-extension folder .
+manually i create the folder's
+
+
+
 
 
 
