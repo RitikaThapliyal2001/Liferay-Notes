@@ -3,7 +3,7 @@ it is the collections of permissions.
 which are used to define what actions a user can perform and what resources a user can access in Liferay.
 
 types of roles?
-there is four types of roles in liferay
+there is five types of roles in liferay
 1)Regular Role -A globally scoped role whose permissions apply throughout the entire Liferay instance. 
 2)site Role- A role with permissions limited to a specific site. 
 3)Organizatiom Role-A role with permissions limited to a specific organization. 
