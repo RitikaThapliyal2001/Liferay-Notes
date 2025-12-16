@@ -1,2 +1,12 @@
 What is Gogo Shell?
 Gogo Shell is used to check and manage the state of OSGi bundles in Liferay
+
+commands of gogo shell?
+-lb (List Bundles)- show all osgi bundel list
+-start<bundle Id>--which bundle i want to start
+-stop<bundle-Id>--which bundle i want to stop
+-uninstall<bundle-Id>--odgi se jar remove hoa jati hain 
+-diag<bundle-Id>---in which state the bundle is 
+-headers<bundel-Id>--bundel ki manifest details dikhata hain like import Package ,Export Package and version
+-services -it's show the registerd services
+-
