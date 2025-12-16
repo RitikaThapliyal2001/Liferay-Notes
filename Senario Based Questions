@@ -15,9 +15,9 @@ Answer:)I will create a parent object and a child object for attachments,
 then link them with a one-to-many relationship. This allows me to add multiple attachments dynamically as needed.
 
 Question:)difference between types of token  in microservcie cx?
-Answer:)I know The two Token's 
-1)oAuthApplicationHeadlessServer-OAuthApplicationHeadlessServer is used when external apps or frontend need to call Liferay Headless APIs.
-2)oAuthApplicationAgent-OAuthApplicationAgent is used for backend-to-backend calls or system integrations without user interaction
+Answer:)
+1)oAuthApplicationHeadlessServer-oAuthApplicationHeadlessServer is used for backend-to-backend calls or system integrations without user interaction
+2)oAuthApplicationAgent-OAuthApplicationAgent is used when external apps or frontend need to call Liferay Headless APIs.
 
 
 
