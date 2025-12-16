@@ -19,6 +19,17 @@ Answer:)
 1)oAuthApplicationHeadlessServer-oAuthApplicationHeadlessServer is used for backend-to-backend calls or system integrations without user interaction
 2)oAuthApplicationAgent-OAuthApplicationAgent is used when external apps or frontend need to call Liferay Headless APIs.
 
+Question)how you create custom notifacation templatee?
+Firstly i will create an tenplate from 
+under APPlication menu<control panel< Notification <Template
+
+after then i will use that template in the objects whenever we will send the notication 
+or email to the user based on the requirent 
+In the objects i will used object action feature in it i will 
+inside that i will create an action by clicking on 
+New <Action Builder <Action there is an option choose notification after then we will used that template in it 
+
+
 
 
 
