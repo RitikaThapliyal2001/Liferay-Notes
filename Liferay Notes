@@ -17,3 +17,6 @@ Portlet Reference means reuse existing Portlet instead of creating a new one
 -)PropsUtil
 PropsUtil is a utility class in liferay used to read propertie's from the liferay's confrigstion's files like 
 portal.properties, system.properties and custom .properties files.
+
+-)Publication?
+Publication in Liferay is a staging feature used to group and publish changes from a staging environment to live in a controlled way.
