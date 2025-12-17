@@ -35,7 +35,7 @@ what is PickList ?
 -)Type's of client extension :
 Frontend ClientExtesion,microservice ClientExtesion,Confrigation ClientExtesion ,Batch ClientExtension
 
-1)Frontend – Used to customize or create user interfaces (React apps, custom elements, themes, CSS, etc.).
+1)Frontend –Frontend Client Extension is used to build UI interfaces (React apps, custom elements, themes, CSS, etc.).
 2)Batch – Used for running background jobs or scheduled tasks.
 and in other word
 It is used for data-migration.
