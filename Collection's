@@ -1,0 +1,3 @@
+In Liferay, a Collection is a group of content items displayed together on a page. For example,
+a dynamic ‘Latest News’ collection automatically shows the 5 newest news articles
+, while a manual ‘Featured Products’ collection displays specific products chosen by the editor.”
