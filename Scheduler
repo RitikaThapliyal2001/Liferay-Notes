@@ -1,0 +1,5 @@
+For document-expiry notifications,
+I create a scheduler using Liferay Dispatch Framework.
+I implement a custom DispatchTaskExecutor where I fetch folders, check expired documents, and send notifications.
+Then in @Activate, I programmatically create a DispatchTrigger with a cron expression so that the task runs daily. 
+The scheduler runs independently of portal restarts and can be fully managed from the Liferay UI.
