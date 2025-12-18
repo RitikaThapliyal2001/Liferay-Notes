@@ -15,3 +15,10 @@ When the server starts, Liferay executes the upgrade steps, verifies schema chan
 
 Overall, the upgrade process is:
 Update product version → Apply unbreakable changes → Resolve dependencies → Run automatic database + module upgrades.”**
+
+
+when i update from Q1 to Q3 
+so i see that javax changed to jakarta 
+and  one major chages i also see that 
+while building the modules i found an error class not found while building 
+so this erro i fix in bnd.bnd add msg fix up msg ignore class not found error ..
