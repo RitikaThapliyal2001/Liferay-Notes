@@ -41,6 +41,17 @@ and in other word
 It is used for data-migration.
 3)Microservice – Used for backend logic or API's that run as independent services.
 These are client extensions in Liferay that are used to call external APIs or microservices
+this properties we define in .yaml file
+service adree---mlt portal Url Define karate hain hum yaha pe ...
+service scheme http https
+token name--id fetch 
+name--ui main name 
+scope--permission (Liferay )
+type --usegen
+
+
+
+
 4)Configuration – Configuration client-extension allows you to set or change Liferay instance configurations programmatically, 
 without touching core code.
 
