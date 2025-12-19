@@ -19,4 +19,4 @@ PropsUtil is a utility class in liferay used to read propertie's from the lifera
 portal.properties, system.properties and custom .properties files.
 
 -)Publication?
-Publication in Liferay is a staging feature used to group and publish changes from a staging environment to live in a controlled way.
+Publication in Liferay is a change-tracking feature used to group, manage, and publish site or content changes to live in a controlled way.
