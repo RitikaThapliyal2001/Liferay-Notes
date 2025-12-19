@@ -9,6 +9,16 @@ acting as a middle layer between the client and server applications
 -)what is the main difference between Portlet and Servlet?
 Servlet reloads the entire web page, while a portlet updates only its own HTML fragment within the page.
 
+-)what feature potlet provides more specific to content page as compare to servlet?
+Portlets provide portal-specific features like multiple components per page, portlet modes,
+window states, personalization, permissions, and inter-portlet communication, which are not available in servlets.
+
+Multiple components → Ek page par kai portlets
+Portlet modes → View/Edit/Help behavior
+Window states → Normal/Maximized/Minimized size
+Personalization → User ke hisaab se content
+Permissions → Role-based access
+Inter-portlet communication → Portlets ke beech data sharing
 
 -)potlet lifecycle?
 Portlet lifecycle define's how a portlet work's and how a portlet handle specific type of request .
