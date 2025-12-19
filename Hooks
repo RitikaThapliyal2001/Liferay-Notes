@@ -9,6 +9,7 @@ and in OSGi we define it by using @Component(property = {"key=login.events.pre"}
 
 Pre-hook
 A post-hook is always invoked after the user login,
-and in OSGi we define it by using @Component(property = {"key=login.events.post"}) inside the Java class
+and in OSGi we define it by using @Component(property = {"key=login.events.post"}) inside the Java clcass
+class implement's LifecycleAction 
 
 
