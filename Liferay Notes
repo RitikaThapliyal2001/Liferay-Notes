@@ -20,3 +20,10 @@ portal.properties, system.properties and custom .properties files.
 
 -)Publication?
 Publication in Liferay is a change-tracking feature used to group, manage, and publish site or content changes to live in a controlled way.
+
+-)widgets?
+Widgets are reusable UI components or portlets in Liferay that provide specific functionality on a page.
+Blogs Widget → Shows latest blog posts on a page.
+Calendar Widget → Displays upcoming events.
+Web Content Display Widget → Shows articles or content on a page.
+Search Widget → Allows users to search the site content.
