@@ -1,5 +1,11 @@
 Fragments?
 Fragments are reusable UI components used to visually build content pages in Liferay.
 
-Web Content ?
-Web Content is used to manage and publish dynamic content (text, images, HTML) using the Liferay Web Content Management (WCM) system.
+Structure?
+Structure defines what fields a web content will have.
+
+Template?
+Template defines how the web content will be displayed.
+
+Web Content?
+Web content is the actual data created using a structure and shown using a template.
