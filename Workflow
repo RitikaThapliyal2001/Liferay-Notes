@@ -1,5 +1,27 @@
 WorkFlow?
 Workflow means the sequence of states through which content passes from creation to publication. 
-Liferay uses the Kaleo Workflow Engine to manage these approval processes.
-When workflow is enabled, the content does not publish directly — instead, 
+Liferay uses the Kaleo Workflow Engine.
+It allows organizations to:
+Approve content before publishing
+Assign review tasks to roles
+Track who approved what
+Maintain compliance and quality control
+WorkflowTaskManagerUtil.assignWorkflowTaskToUser(
+                        uploader.getCompanyId(),
+                        uploaderUserId,
+                        latestTask.getWorkflowTaskId(),
+                        departmentHead.getUserId(),
+                        commentStatus,
+                        null,
+                        new HashMap<>()
+                );
+ 
+   WorkflowTaskManagerUtil.getWorkflowTasksByUser(
+                        uploader.getCompanyId(),
+                        uploaderUserId,  // initiator
+                        false,           // pending only
+                        QueryUtil.ALL_POS, // start
+                        QueryUtil.ALL_POS, // end         
+                        null
+                );
 it first goes into the Pending state by default until it is reviewed and approved
