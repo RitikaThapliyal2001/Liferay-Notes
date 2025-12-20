@@ -16,6 +16,12 @@
 #)It’s similar to creating a table in a database.
 #)Used for data modeling, validation, and workflows.
 
+-)Layout?
+Object Layout is used to control how object fiels and relationshis are displayes in the UI
+
+-)Action?
+
+
 What is state manager in object's?
 #)A State Manager in Liferay Objects is similar to a workflow .
 #)it tracks and manages the current state of an object entry (like Draft, Approved, Rejected, etc.) throughout its lifecycle.
