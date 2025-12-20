@@ -1,6 +1,6 @@
 -)portlet?
 portlet is a reusable web componenet that run inside a liferay portal page and follow the Portlet APi's ...
-it is simillar to servlet but provides more feature specific to a server page .
+it is simillar to servlet but provides more feature specific to a Portal page .
 
 -)Servlet?
 A Servlet is a Java class that handles client requests and responses to generate dynamic web content,
