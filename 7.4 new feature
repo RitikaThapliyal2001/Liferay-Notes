@@ -42,6 +42,7 @@ It is used for data-migration.
 3)Microservice – Used for backend logic or API's that run as independent services.
 These are client extensions in Liferay that are used to call external APIs or microservices
 this properties we define in .yaml file
+assemble :The assemble block controls how build files are selected and packaged into the final Liferay client extension archive (LUFFA).
 service adree---mlt portal Url Define karate hain hum yaha pe ...
 service scheme http https
 token name--id fetch 
