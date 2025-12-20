@@ -28,7 +28,9 @@ a)Trigger
 - on after Attachment Download
 - on After Delete
 - on After Update
-- Standalone
+- Standalone---if we want to trigger an action on fixed time then we will use  the stadalone in under the object action
+
+
 
 
 
