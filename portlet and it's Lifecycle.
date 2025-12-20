@@ -35,7 +35,7 @@ The init phase of a portlet called when portlet is initialize's or in other word
 
 Action Phase's
 2)Action
-The Action Phase is used to process form submissions or button clicks that submit data, and it always triggers a page refresh.
+The Action Phase handles user actions and it always triggers a page refresh
 PP(portlet Phase) Lifecycle is 2
 
 3)Reder Phase 
