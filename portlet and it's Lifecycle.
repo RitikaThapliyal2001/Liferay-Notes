@@ -22,18 +22,18 @@ Inter-portlet communication → Portlets ke beech data sharing
 
 -)potlet lifecycle?
 Portlet lifecycle define's how a portlet work's and how a portlet handle specific type of request .
-
--)there is six phase of portlet lifecycle 
-1)init
-2)action 
-3)render
-4)resource
-5)event
-6)destroy
+There is mainly three phases Init Phase , Action Phase , Destroy Phase
+The Process phase is NOT a single phase internally.
+It is a group of multiple request-handling phases.
+a-)Action Phase
+b-)Resource Phase
+c-)Render Phase
+d-)Event Phase
 
 1)init
 The init phase of a portlet called when portlet is initialize's or in other word when portle is deployed
 
+Action Phase's
 2)Action
 The Action Phase is used to process form submissions or button clicks that submit data, and it always triggers a page refresh.
 PP(portlet Phase) Lifecycle is 2
