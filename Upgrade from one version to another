@@ -1,24 +1,28 @@
-“When we upgrade Liferay from one version to another, we follow a structured migration process.
+1-)Check Official Documentation
+✅ Always start by reading the official Liferay upgrade guides on learn.liferay.com
+It tells you about breaking changes, deprecated APIs, new features, and required steps.
 
-First, we update the target product version in gradle.properties, for example:
-liferay.workspace.product=dxp-2025.q1.4-lts.
-This applies the required ‘unbreakable changes’ for that version.
+2-)Take Full Backup
+✅ Backup your database and code (all modules, services, and customizations).
+This is critical because if something breaks during upgrade, you can roll back.
 
-Then we update and resolve all module-level dependencies (OSGi, third-party libraries, and Liferay APIs) so everything aligns with the new DXP version.
+3-)After then i will change in 
+liferay.workspace.product=<new-version> in which i want to updgrade
+This tells Gradle which Liferay version to use.
 
-After the codebase is aligned, we prepare for the database upgrade.
-We enable:
-upgrade.database.auto.run=true
-so that Liferay runs all required Upgrade Processes automatically.
+4-)Check for Breaking Changes
+After changing the version, run gradle build and check for errors in your modules, service APIs, and custom code.
+Update your code to handle any API changes, deprecated methods, or breaking changes mentioned in the Liferay upgrade guide.
 
-When the server starts, Liferay executes the upgrade steps, verifies schema changes, updates module versions, and completes the database migration.
+5-)Update Database Schema
+Add the line in portal-ext.properties:
+update.database.auto.run=true
+When you start Liferay, it will automatically update database schemas, and indexes.
 
-Overall, the upgrade process is:
-Update product version → Apply unbreakable changes → Resolve dependencies → Run automatic database + module upgrades.”**
+✅ Make sure to check logs for any database errors.
 
+Test Everything
 
-when i update from Q1 to Q3 
-so i see that javax changed to jakarta 
-and  one major chages i also see that 
-while building the modules i found an error class not found while building 
-so this erro i fix in bnd.bnd add msg fix up msg ignore class not found error ..
+Once the server is up, thoroughly test your modules, customizations, workflows, and services.
+
+Check for UI changes, new features, or deprecated behavior that may affect your project
