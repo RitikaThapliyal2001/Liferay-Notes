@@ -48,7 +48,12 @@ service scheme http https
 token name--id fetch 
 name--ui main name 
 scope--permission (Liferay )
-type --usegen
+type --Oauth Authentication
+OAuthApplicationHeadlessServer
+OAuthApplicationAgent
+The Main Difference Between OAuthApplicationHeadless and OAuthApplicationAgent is OAuthApplicationHeadless is used for call the API in
+backend to beckend only 
+and OAuthApplicaitonServer is used to calling the api from broser to bakcend ..
 
 
 
