@@ -23,6 +23,7 @@ Object Layout is used to control how object fiels and relationshis are displayes
 Object Action is used when we need to perform some action automatically when an object record is created, updated, or deleted
 
 Action Builder
+Trigger: An event that starts the evaluation process for actions.
 a)Trigger
 - on After Add
 - on after Attachment Download
@@ -30,9 +31,15 @@ a)Trigger
 - on After Update
 - Standalone---if we want to trigger an action on fixed time then we will use  the stadalone in under the object action
 
+Condition: A rule that must be true for the action to execute.
+in this we will write the grovy script
 
-
-
+Action: A task that runs if the trigger occurs and the condition is met.
+a)add an object entry
+b)Groovy script
+c)notification
+d)update an object Entry
+e)webhook
 
 
 
