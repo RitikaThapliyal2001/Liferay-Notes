@@ -5,7 +5,18 @@ Example -UserLocalServiceWrapper – to customize user creation, update, validat
 
 Modle Listner:
 Model Listener in Liferay is used to listen to model lifecycle events such as create,
-update, and delete by implementing specific callback methods like onBeforeCreate, onAfterUpdate, and onAfterRemove
+update, and delete by implementing specific callback methods like 
+onBeforeCreate
+onBeforeUpdate
+onBeforeRemove
+onBeforeAddAssociation
+onBeforeRemoveAssociation
+onAfterCreate
+onAfterUpdate
+onAfterRemove
+onAfterAddAssociation
+onAfterRemoveAssociation
+
 
 The differnce between Service Wrapper and Modle listner is 
 Service Wrapper works at the service method level, while Model Listener works at the model lifecycle event level.
