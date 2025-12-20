@@ -21,8 +21,14 @@ When you start Liferay, it will automatically update database schemas, and index
 
 ✅ Make sure to check logs for any database errors.
 
-Test Everything
-
 Once the server is up, thoroughly test your modules, customizations, workflows, and services.
-
 Check for UI changes, new features, or deprecated behavior that may affect your project
+
+Recently i were updated my NBP project 
+from Q1 to Q3 
+i checked major changes are that 
+JAVAX changed to JAKARTA
+and while build the module i got an error this Classes found in the wrong directory
+so for this i kept  this msg in bnd.bnd file
+-fixupmessages: Classes found in the wrong directory: ...;is:=ignore
+
