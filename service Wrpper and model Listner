@@ -1,12 +1,11 @@
-A Model Listener in Liferay is a component that allows us to execute custom code whenever a
-model’s lifecycle event occurs. It automatically triggers before or after actions like create
-, update, or delete of any Liferay entity. By extending BaseModelListener and overriding methods
-like onBeforeCreate or onAfterUpdate, we can add custom validation, logging, permissions,
-or integration logic without changing the core service code.”
+Service Wrapper:
+Service wrapper is used to wrap and overide the default services in liferay without effecting its core code
+Example -UserLocalServiceWrapper – to customize user creation, update, validation
+         DLFileEntryLocalServiceWrapper – to add logic while uploading or updating documents
 
-Service Wrapper is used when I want to modify or extend Liferay's
-built-in service behavior.
-I extend the existing LocalService/Service wrapper 
-and override the desired method, adding my custom
-logic before or after the core logic. This approach is upgrade-safe and avoids modifying core Liferay code.”
- 
+Modle Listner:
+Model Listener in Liferay is used to listen to model lifecycle events such as create,
+update, and delete by implementing specific callback methods like onBeforeCreate, onAfterUpdate, and onAfterRemove
+
+The differnce between Service Wrapper and Modle listner is 
+Service Wrapper works at the service method level, while Model Listener works at the model lifecycle event level.
