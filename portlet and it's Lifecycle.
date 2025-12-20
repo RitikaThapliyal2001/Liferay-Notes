@@ -13,7 +13,7 @@ Servlet reloads the entire web page, while a portlet updates only its own HTML f
 Portlets provide portal-specific features like multiple components per page, portlet modes,
 window states, personalization, permissions, and inter-portlet communication, which are not available in servlets.
 
-Multiple components → Ek page par kai portlets
+Multiple components Per Page → Ek page par kai portlets
 Portlet modes → View/Edit/Help behavior
 Window states → Normal/Maximized/Minimized size
 Personalization → User ke hisaab se content
