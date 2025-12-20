@@ -20,6 +20,18 @@
 Object Layout is used to control how object fiels and relationshis are displayes in the UI
 
 -)Action?
+Object Action is used when we need to perform some action automatically when an object record is created, updated, or deleted
+
+Action Builder
+a)Trigger
+- on After Add
+- on after Attachment Download
+- on After Delete
+- on After Update
+- Standalone
+
+
+
 
 
 What is state manager in object's?
