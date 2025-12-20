@@ -34,6 +34,13 @@ inside that i will create an action by clicking on
 New <Action Builder <Action there is an option choose notification after then we will used that template in it 
 
 
+Question-)Agar upgrate ke time error aayo to kaise handle kroge ?
+Upgrade issues are handled by analyzing breaking changes and fixing compatibility problems.
+
+Question-)Portlet main error aaayi toa kaise handel karoge?
+portlet issues are handled by debugging logs, code, permissions, and OSGi configurations.
+
+
 how can i enable grovy script in Liferay?
 Q3 main ye enable rehati thi 
 Q4 se enable karani padhati hain hum ko
