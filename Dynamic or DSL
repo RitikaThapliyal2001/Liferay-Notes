@@ -1,7 +1,7 @@
-🔹 Dynamic Query
+-)Dynamic Query 
+Dynamic Query is an older liferay APi used to fetch data at runtime 
+By building Queries Programatically without writting SQL 
 
-Dynamic Query is an older Liferay API used to fetch data at runtime by building queries programmatically without writing SQL.
-
-🔹 DSL Query
-
-DSL Query is a modern, type-safe Liferay query approach that allows writing SQL-like queries with compile-time checking and better readability.
+-)DSL Query 
+DSL Query stand for Domain Specific Language. 
+it is type safe liferay Querry Approach that allow Writting SQL type Queries with compile Time 
