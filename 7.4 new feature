@@ -83,7 +83,7 @@ OAuthApplicationHeadlessServer
 OAuthApplicationAgent
 The Main Difference Between OAuthApplicationHeadless and OAuthApplicationAgent is OAuthApplicationHeadless is used for call the API in
 backend to beckend only 
-and OAuthApplicaitonServer is used to calling the api from broser to bakcend ..
+and OAuthApplicationAgent is used to calling the api from broser to bakcend ..
 
 how to create Client extensiom folder in liferay ?
 manually will create the folder's ..
