@@ -1,1 +1,39 @@
+Step 1:
+First, I installed Ollama on my local machine to run AI models locally.
 
+Step 2:
+Then, I downloaded the required Meta LLaMA model using Ollama, like LLaMA 3.2 or 3.1.
+
+Step 3:
+After that, I tested the model locally using the Ollama run command to make sure it was working properly.
+
+Step 4:
+Next, I integrated the Liferay Java backend with the Ollama AI API.
+
+Step 5:
+From the backend, I sent the user prompt to the AI through the API.
+
+Step 6:
+Based on the user input:
+
+If the question was normal, I let the AI generate a normal response.
+
+If the question was data-related, I instructed the AI to generate an SQL query.
+
+Step 7:
+I trained the AI using:
+
+Database schema from service.xml
+
+Sample questions and SQL examples
+
+Business rules and application context
+
+Step 8:
+After receiving the AI response, I extracted only the SQL query from it.
+
+Step 9:
+Then, I executed the SQL query in the backend using JDBC or service-layer logic.
+
+Step 10:
+Finally, I formatted the result as per UI requirement and returned the response to the frontend.
