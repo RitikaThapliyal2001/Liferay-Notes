@@ -7,7 +7,7 @@ A Servlet is a Java class that handles client requests and responses to generate
 acting as a middle layer between the client and server applications
 
 -)what is the main difference between Portlet and Servlet?
-Servlet reloads the entire web page, while a portlet updates only its own HTML fragment within the page.
+
 Servlet: Generates full HTML response.
 Portlet: Generates only a page fragment.
 
