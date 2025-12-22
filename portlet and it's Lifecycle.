@@ -8,6 +8,17 @@ acting as a middle layer between the client and server applications
 
 -)what is the main difference between Portlet and Servlet?
 Servlet reloads the entire web page, while a portlet updates only its own HTML fragment within the page.
+Servlet: Generates full HTML response.
+Portlet: Generates only a page fragment.
+
+Servlet: Accessed directly via URL.
+Portlet: Displayed inside a portal page.
+
+Servlet: Uses HttpServletRequest and HttpServletResponse.
+Portlet: Uses PortletRequest and PortletResponse.
+
+Servlet: Manages state mostly using sessions.
+Portlet: Has built-in personalization using portlet preferences.
 
 -)what feature potlet provides more specific to content page as compare to servlet?
 Portlets provide portal-specific features like multiple components per page, portlet modes,
