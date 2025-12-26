@@ -1,0 +1,2 @@
+XSS (Cross-Site Scripting) is a security vulnerability where an attacker injects malicious JavaScript code into a Liferay application.
+That script then runs in another user’s browser
