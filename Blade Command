@@ -1,0 +1,4 @@
+Q--)how to create an MVC-portlet using Blade?
+blade create -t mvc-portlet (module_name)
+ex.blade create -t mvc-portlet com.transfer.api.data.com
+-t is template here 
