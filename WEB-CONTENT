@@ -1,0 +1,43 @@
+how to make webcontent through API's ?
+Q1)if you want to make web content through api's inside specific folder ?
+Ans)
+Step1--)firstly please check folder id of that webconent 
+
+Step2--)after then you have gooo in domain/o/api
+
+step3--)inside that ,call the StructuredContent APi inside that api call the 
+THIS API----)
+/structured-content-folders/{structuredContentFolderId}/structured-contents  
+for that structuredContentFolderId this is mandatory field to get the api sooo this is your folder id which you find from the step1
+then hit the api and you get the JSON
+
+Step4--) From That JSON you get an id .
+
+Step5--)from that id you can post the api 
+THIS IS POST URL---)
+http://localhost:8080/o/headless-delivery/v1.0/structured-content-folders/37270/structured-contents
+37270--FYI --this is ID which i fetched From the step -4
+
+Step6--)Then Post The API From The Post MAN 
+API Post URL--http://localhost:8080/o/headless-delivery/v1.0/structured-content-folders/37270/structured-contents
+Body---
+{
+  "title": "my_web_content", 
+  "contentStructureId": 37767,
+  "contentFields": [
+    {
+      "name": "htmlData",
+      "contentFieldValue": {
+        "data": "<h1>EVERYTHING'S IS POSSIBLE IN THIS WORLD AND WAR.....</h1><p>YES MYSTRIOUS WORLD.....</p>"
+      }
+    }
+  ]
+}
+
+in this above body title dedicate here THE NAME OF WEB CONTENT
+
+
+
+
+
+
