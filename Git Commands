@@ -1,0 +1,59 @@
+## Change directory
+$ cd projects/bluedart/code/
+
+## To clone from the master repository
+$ git clone https://github.com/liferay/lfrgs-bluedart-ms.git
+
+## Go inside
+$ cd lfrgs-bluedart-ms/
+
+## To add the master repository as upstream
+$ git remote add upstream https://github.com/liferay/lfrgs-bluedart-ms.git
+
+## Set fork URL as origin
+$ git remote set-url origin https://github.com/rajaseth-lfr/lfrgs-bluedart-ms.git
+
+## To switch to the develop branch
+$ git checkout develop
+Switched to a new branch 'develop'
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+## Pull the code from the upstream
+$ git pull --rebase upstream develop
+
+## To push the code to origin
+$ git push origin develop
+
+## To check the status if there are any changes added to commit
+$ git status
+
+## Add the changes made in the local
+$ git add modules/addressbook-portlet/bnd.bnd
+
+## Commit the changes
+$ git commit -m "Added apace"
+
+## Push the commit to the origin
+$ git push origin develop
+
+## Revert the changes on local
+$ git reset --soft HEAD~1
+
+## Push the changes forcefully to the origin
+$ git push origin -f
+
+## Reverting the local changes for the current branch
+$ git stash
+
+## Fetch all branches in local
+$ git fetch --all
+
+## Path error(jab long file wali error aati hain)
+git config --system core.longpaths true 
+git config --global core.longpaths true (run this file if you have permission deline issue)
+
+## move the file from the staged to the unstaged area
+git restore --staged  
+
+## if you have conflict in your git then 
+esc :wq
