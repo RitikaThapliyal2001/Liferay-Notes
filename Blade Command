@@ -13,3 +13,7 @@ Q--)how toa make structure ?
 blade init 
 blade init -v (serverName)
 
+Q--)create rest-api?
+blade create -t rest-builder -p com.indian.bank.custom.session.time.out.api com.indian-bank-session-timeout-api
+
+
