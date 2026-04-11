@@ -1,0 +1,8 @@
+How to create an hash value ?
+hash value is used for the file integrity 
+step 1-) zip -r modules.zip modules
+here modules stand for foldername which you want to put in it 
+
+step 2-) Sha256sum *.zip > modules.txt 
+
+Here Sha stand for Secure Hash Algorithm
