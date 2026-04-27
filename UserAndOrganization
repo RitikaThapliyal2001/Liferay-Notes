@@ -1,5 +1,9 @@
--)user-A User is an individual account, 
+-)user-every person who access a liferay site is cconsidered a user, 
 -)and an Organization is a group of users arranged in a hierarchy for managing departments and permissions.
+
+-)what is Administraor user in liferay?
+An Administrator user is a user who has the highest level of permissions to manage and access the Liferay portal. 
+guest user - A guest user is a unauthenticated user .
 
 -)what are the mandatory fields for creating and users?
 1)first name 
