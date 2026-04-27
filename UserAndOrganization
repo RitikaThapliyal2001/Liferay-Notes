@@ -3,7 +3,11 @@
 
 -)what is Administraor user in liferay?
 An Administrator user is a user who has the highest level of permissions to manage and access the Liferay portal. 
-guest user - A guest user is a unauthenticated user .
+
+-) what is Guest user ?
+a user is an unauhenticate user who can access only the public pages and content without login.
+
+
 
 -)what are the mandatory fields for creating and users?
 1)first name 
