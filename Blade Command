@@ -16,4 +16,7 @@ blade init -v (serverName)
 Q--)create rest-api?
 blade create -t rest-builder -p com.indian.bank.custom.session.time.out.api com.indian-bank-session-timeout-api
 
+Q--) is see mera module create hoa gaya hain 2024.Q1LTS main 
+$ blade create -v 7.4 -t mvc-portlet -p com.iob.user.dashboard.web -c UserDashboardPortlet user-dashboard-web
+
 
