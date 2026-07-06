@@ -164,6 +164,9 @@ XML:-)
 2)Implement WorkflowHandler
 3)Start workflow:
 WorkflowHandlerRegistryUtil.startWorkflowInstance()
+
+
+3, 4, 5, 9, 10, 11
 4)Update status after approval.
 
 
