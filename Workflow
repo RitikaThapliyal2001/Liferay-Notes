@@ -1,11 +1,9 @@
 WorkFlow?
-Workflow means the sequence of states through which content passes from creation to publication. 
-Liferay uses the Kaleo Workflow Engine.
-It allows organizations to:
-Approve content before publishing
-Assign review tasks to roles
-Track who approved what
-Maintain compliance and quality control
+Workflow is the sequence of states through which content passes from creation to publication.
+In Liferay, workflows are managed using the Kaleo Workflow Engine. It allows organizations to review and approve content before publishing, 
+assign review tasks to specific users or roles, track approval actions, and maintain compliance and quality control.
+When workflow is enabled, the content usually goes into the Pending state by default after submission. It remains pending until the assigned reviewer reviews and approves or rejects it.
+
 WorkflowTaskManagerUtil.assignWorkflowTaskToUser(
                         uploader.getCompanyId(),
                         uploaderUserId,
@@ -25,3 +23,148 @@ WorkflowTaskManagerUtil.assignWorkflowTaskToUser(
                         null
                 );
 it first goes into the Pending state by default until it is reviewed and approved
+
+
+1. A client says: "Web Content should not be published directly. Department Head must approve it first." How will you implement this?
+I will enable workflow for Web Content from Workflow Configuration. I will create/update a Kaleo workflow definition where:
+User submits Web Content
+Content goes into Pending state
+Review task is assigned to Department Head role
+Department Head approves/rejects
+On approval, content moves to Approved state and becomes visible
+Draft → Pending → Review → Approved / Rejected
+
+
+2. What happens internally when workflow is enabled and user creates Web Content?
+-)Liferay creates the content entry.
+-)Initial status becomes WorkflowConstants.STATUS_PENDING.
+-)Kaleo creates a workflow instance.
+-)Workflow task is generated.
+-)Task is assigned based on workflow configuration.
+-)Reviewer completes the task.
+On approval:
+Status changes to APPROVED
+Content becomes available
+
+3)Client requirement: "Maker should create content, Checker should approve it. Maker cannot approve their own content." How will you handle?
+Implement Maker-Checker workflow:
+
+Create Maker role
+Create Checker role
+Assign workflow review task only to Checker
+Add validation so creator cannot approve their own request
+if (creatorUserId == reviewerUserId) {
+    throw new PortalException(
+        "Maker cannot approve own content"
+    );
+}
+
+4. How will you assign a workflow task to a specific user dynamically?
+WorkflowTaskManagerUtil.assignWorkflowTaskToUser(
+    companyId,
+    currentUserId,
+    workflowTaskId,
+    assigneeUserId,
+    "Assigned",
+    null,
+    serviceContext
+);
+It changes the workflow task ownership from one user/role to a specific user.
+
+5. How do you fetch pending workflow tasks of a user?
+WorkflowTaskManagerUtil.getWorkflowTasksByUser(
+    companyId,
+    userId,
+    false,
+    QueryUtil.ALL_POS,
+    QueryUtil.ALL_POS,
+    null
+);
+
+false means fetch only incomplete/pending tasks.
+
+6. Requirement: "After approval, send an email notification." How will you do?
+<notification>
+    <name>Approval Notification</name>
+    <template>
+        Content approved successfully
+    </template>
+    <notification-type>email</notification-type>
+</notification>
+or implement custom notification logic using:
+MailServiceUtil.sendEmail()
+
+7. Client says approval should be:
+User → Manager → Admin → Publish
+How will you implement?
+
+Created
+   |
+Pending Manager Approval
+   |
+Manager Approved
+   |
+Admin Approval
+   |
+Approved
+Create multiple <task> nodes in Kaleo XML.
+
+
+8. How will you customize workflow actions?
+Use Kaleo action scripts:
+
+Example:
+<actions>
+    <action>
+        <script>
+            <![CDATA[
+              // custom logic
+            ]]>
+        </script>
+        <script-language>groovy</script-language>
+    </action>
+</actions>
+
+9. User says: "I approved content but it is still not visible on site." How will you debug?
+I will check:
+
+Workflow status in database
+Asset visibility
+Permissions
+Latest approved version
+JournalArticle status
+
+
+select status 
+from JournalArticle 
+where articleId='123';
+0 = Approved
+1 = Pending
+2 = Draft
+
+
+10. How does Liferay know which assets support workflow?
+Through WorkflowHandler.
+@Component(
+ service = WorkflowHandler.class
+)
+public class CustomWorkflowHandler 
+extends BaseWorkflowHandler {
+}
+WorkflowHandler connects custom entities with the Liferay workflow engine.
+
+
+11. You created a custom module (Tender/Request). Client wants workflow approval. What steps?
+
+1)Add status fields in Service Builder:
+XML:-)
+<column name="status" type="int"/>
+<column name="statusByUserId" type="long"/>
+<column name="statusDate" type="Date"/>
+2)Implement WorkflowHandler
+3)Start workflow:
+WorkflowHandlerRegistryUtil.startWorkflowInstance()
+4)Update status after approval.
+
+
+
